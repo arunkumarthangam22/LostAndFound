@@ -1,0 +1,53 @@
+# Python-related files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Django-specific files
+*.log
+db.sqlite3
+local_settings.py
+media/
+staticfiles/
+static/
+env/
+venv/
+env.bak/
+*.bak
+
+# Environment Variables & Secrets
+.env
+*.env
+*.env.*
+
+# Ignore migration files (optional if you reset often)
+**/migrations/*.py
+**/migrations/*.pyc
+!**/migrations/__init__.py
+
+# Coverage and reports
+htmlcov/
+*.cover
+coverage.xml
+nosetests.xml
+*.mo
+*.pot
+*.log
+
+# Celery and Background tasks
+celerybeat-schedule
+celerybeat.pid
+
+# OS-generated files
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+*.swn
+
+# IDE and Editor Config
+.vscode/
+.idea/
+*.iml

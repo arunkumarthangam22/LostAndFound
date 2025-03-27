@@ -1,0 +1,137 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# 📦 Node.js dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# 📚 Build and Production Files
+/dist
+/build
+/.next
+/out
+
+# 📊 Coverage and Test Reports
+/coverage
+/junit.xml
+/test-report.json
+/karma.conf.js
+/nyc_output
+
+# 🔥 Firebase and FCM Files
+/firebase.json
+/.firebaserc
+/.firebase/
+firestore.rules
+firestore.indexes.json
+/.firebase-token.json
+
+# 🔑 Environment Variables
+.env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.backup
+
+# 🗑️ Logs and Debugging Files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+/*.log
+
+# 🚀 Public and Cache Files
+/.cache
+/.temp
+/cache
+/.parcel-cache
+
+# 🎨 IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+/.vscode-test/
+/*.iml
+
+# 🍎 macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 💡 Windows System Files
+*.bat
+*.cmd
+*.lnk
+
+# 🔥 Firebase Hosting Deployment
+/firebase-debug.log
+/firebase-debug.*
+/public/firebase-debug.log
+
+# 📚 Documentation and Code Formatting
+*.swp
+*.swo
+*.bak
+*.tmp
+/.prettierignore
+/.eslintrc
+/.eslintcache
+/stylelint.cache
+
+# 🧪 Test Environment Files
+/coverage/
+/cypress/screenshots/
+/cypress/videos/
+/jest-cache/
+/jest/
+/test-output/
+/results/
+/tests/.eslintcache
+
+# 🚀 Git and Versioning
+*.lock
+.gitignore.bak
+.gitlab-ci.yml
+.github/
+/*.git/
+.git/
+
+# 💾 Database and Backup Files
+*.sqlite3
+*.db
+*.bak
+*.sql
+/db.sqlite3
+/db.sqlite3-journal
+
+# 🔎 Security and Sensitive Files
+/secret
+/secrets.json
+/credentials.json
+/config.json
+/keys.json
+/api_keys.json
+
+# ⚙️ Django Backend (if applicable)
+/__pycache__/
+/*.py[cod]
+*.sqlite3
+/migrations/
+/staticfiles/
+/media/
+/venv/
+/.env
+
+# 🎁 Miscellaneous Files
+*.zip
+*.tar
+*.gz
+*.rar
